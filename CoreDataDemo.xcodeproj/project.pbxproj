@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D57BD8732835326F00C5A17F /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD8722835326F00C5A17F /* StorageManager.swift */; };
+		D57BD87628353D3E00C5A17F /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57BD87528353D3E00C5A17F /* AlertController.swift */; };
 		D5B3FBAB2833D53900EBD33F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3FBAA2833D53900EBD33F /* AppDelegate.swift */; };
 		D5B3FBAF2833D53900EBD33F /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B3FBAE2833D53900EBD33F /* TaskListViewController.swift */; };
 		D5B3FBB52833D53900EBD33F /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5B3FBB32833D53900EBD33F /* CoreDataDemo.xcdatamodeld */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D57BD8722835326F00C5A17F /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		D57BD87528353D3E00C5A17F /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		D5B3FBA72833D53900EBD33F /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B3FBAA2833D53900EBD33F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5B3FBAE2833D53900EBD33F /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				D5B3FBAA2833D53900EBD33F /* AppDelegate.swift */,
 				D5B3FBAE2833D53900EBD33F /* TaskListViewController.swift */,
+				D57BD8722835326F00C5A17F /* StorageManager.swift */,
+				D57BD87528353D3E00C5A17F /* AlertController.swift */,
 				D5B3FBB62833D53B00EBD33F /* Assets.xcassets */,
 				D5B3FBB82833D53B00EBD33F /* LaunchScreen.storyboard */,
 				D5B3FBBB2833D53B00EBD33F /* Info.plist */,
@@ -134,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5B3FBAF2833D53900EBD33F /* TaskListViewController.swift in Sources */,
+				D57BD8732835326F00C5A17F /* StorageManager.swift in Sources */,
 				D5B3FBB52833D53900EBD33F /* CoreDataDemo.xcdatamodeld in Sources */,
+				D57BD87628353D3E00C5A17F /* AlertController.swift in Sources */,
 				D5B3FBAB2833D53900EBD33F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
